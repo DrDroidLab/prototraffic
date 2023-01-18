@@ -20,7 +20,8 @@ dr = codemarkers.DroidEvents()
 // Add events like this
 dr.publish("Order", "Created", (("ID", "13432"), ("City", "BLR"), ("IS_COD", False)))
 ```
-You'll be required to Read documentation here for the [pydoctordroid](https://github.com/DrDroidLab/drdroid-py)
+
+You'll need to setup a few environment variables for the SDK configuration. Here is complete documentation about the SDK [pydoctordroid](https://github.com/DrDroidLab/drdroid-py) and how to configure it.
 
 ## Run the Flask application
 Running the following command starts the Flask application on port 8082. It is not dockerized. 
