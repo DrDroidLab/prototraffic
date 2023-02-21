@@ -14,11 +14,11 @@ pip3 install -r requirements.txt
 ## Generating custom events for Doctor Droid 
 ```
 // Put it on top of the app.py file
-from pydoctordroid import codemarkers
-dr = codemarkers.DroidEvents()
+from pydoctordroid import DrDroid
+dr = DrDroid()
 
 // Add events like this
-dr.publish("Order", "Created", (("ID", "13432"), ("City", "BLR"), ("IS_COD", False)))
+dr.publish("Order", "Created", {"ID": "13432", "City": "BLR", "IS_COD": False})
 ```
 
 You'll need to setup a few environment variables for the SDK configuration. Here is complete documentation about the SDK [pydoctordroid](https://github.com/DrDroidLab/drdroid-py) and how to configure it.
