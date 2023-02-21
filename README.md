@@ -11,6 +11,12 @@ Run the following command to setup python packages for both flask application an
 pip3 install -r requirements.txt
 ```
 
+## Setup DrDroid Auth token
+Add the auth token as an environment variable to allow the DrDroid SDK to publish events to the platform backend. You can request for beta access to DrDroid platform [here](https://drdroid.io).
+```
+export DRDROID_AUTH_TOKEN=<TOKEN>
+```
+
 ## Generating custom events for Doctor Droid 
 ```
 // Put it on top of the app.py file
