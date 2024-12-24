@@ -41,7 +41,7 @@ Running the following command starts the Flask application on port 8082. It is n
 python3 samplerestservice/app.py
 ```
 
-## Run the traffic simulation
+## Run the traffic simulations
 Run the following command to start the simulated traffic. You can change the number of concurrent users to increase or decrease the traffic.
 ```
 locust --host="http://localhost:8082" --headless -f traffic/locustfile.py -u 1
